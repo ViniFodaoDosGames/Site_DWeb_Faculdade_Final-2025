@@ -1,0 +1,14 @@
+.icon_template {
+    flex: 1 1 0;
+    height: 100%;
+    border-radius: 1vw;
+    transition: scale 0.05s ease-in;
+}
+.icon_template:hover{
+    scale: calc(110%);
+}
+
+#content_Header{
+    flex: 4 1 0;
+    padding-left: 1vw;
+}
