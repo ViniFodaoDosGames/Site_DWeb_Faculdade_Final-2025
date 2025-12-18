@@ -1,0 +1,69 @@
+
+
+.searchPainel{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2vw;
+    position: sticky;
+    z-index: 1;
+    background-color: #fff;
+}
+
+.card{
+    position: relative;
+    justify-self: center;
+    flex: 1 1 0;
+    display: flex;
+    width: calc(95%);
+    height: calc(50%);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    position: relative;
+    box-shadow: 2px 1px 5px #00000075;
+    background: 
+        linear-gradient(0deg, transparent 25%, #fcfcfc7b 50%, transparent 75%),
+        linear-gradient(0deg, #a3a3a34d 0%, transparent 20%),
+        linear-gradient(0deg, transparent 80%, rgba(247, 247, 247, 0.302) 100%),
+        linear-gradient(#f1f1f1 43%, #d4d4d4 63%);
+    
+    transition: height 0.2s ease-in, margin-bottom 0.3s ease-out, margin-top 0.3s ease-out;
+}
+
+.imageSection{
+    flex: 1 1 0;
+    height: 100%;
+    width: auto;
+    display: flex;
+    border: 1px solid #939393;
+    justify-content: center;
+}
+.imageSection img{
+    scale: calc(100%);
+}
+
+.textSection{
+    flex: 4 1 0;
+    text-align: justify;
+    padding: 10px;
+}
+.card h3{
+    font-size: 2.5rem;
+    color: #2959a0;
+}
+
+.card:hover{
+    cursor: pointer;
+    height: calc(60%);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    background: 
+        linear-gradient(0deg, transparent 25%, #ececec7b 50%, transparent 75%),
+        linear-gradient(0deg, #c0c0c04d 0%, transparent 20%),
+        linear-gradient(0deg, transparent 80%, #fdfdfd4d 100%),
+        linear-gradient(#ffffff 43%, #e6e6e6 63%);
+
+}

@@ -20,6 +20,24 @@
     font-size: 1.5rem;
 }
 
+.main_input{
+    border: solid 1px #939393;
+    border-radius: 0.5vw;
+    width: 50vw;
+    height: 3vh;
+    font-size: 1.3rem;
+    padding: 1vw;
+}
+.main_texarea{
+    border: solid 1px #939393;
+    border-radius: 0.5vw;
+    width: 50vw;
+    height: 20vh;
+    resize: none;
+    font-size: 1.3rem;
+    padding: 1vw;
+    margin-bottom: 50px ;
+}
 
 .main_header {
     flex: 1 1 0;
@@ -45,10 +63,10 @@
     overflow: scroll;
     scrollbar-width: none;
     width: 100%;
+    text-align: center;
 }
 
 .submit_buttom {
-    position: absolute;
     box-shadow: 2px 1px 5px #00000075;
     border-radius: 1vw;
     border: 1px solid #939393;
@@ -58,7 +76,7 @@
         linear-gradient(0deg, transparent 80%, #ffffff4d 100%),
         linear-gradient(#3adb70 43%, #4a9463 63%);
     color: #FFF !important;
-    width: 8vw;
+    width: 9vw;
     height: 5vh;
     margin: 3vh 0;
     font-size: 1rem;
@@ -74,3 +92,4 @@
     box-shadow: 4px 4px 10px #47474775 inset, -4px -4px 10px #47474775 inset;
     background: linear-gradient(#2ce068 43%, #4ab16c 63%);
 }
+

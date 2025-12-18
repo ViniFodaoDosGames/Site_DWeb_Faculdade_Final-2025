@@ -27,7 +27,9 @@ body {
     justify-content: center;
 }
 
-li, p, h3{
+li,
+p,
+h3 {
     display: inline;
 }
 
@@ -87,7 +89,7 @@ header {
 
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -101,10 +103,13 @@ header h1 {
     box-shadow: 2px 1px 5px #00000075;
     border-radius: 10%;
     border: 1px solid #939393;
-    background: linear-gradient(#db3a3c 43%, #964748 63%);
+    background:
+        linear-gradient(0deg, #8f261f 0%, transparent 20%),
+        linear-gradient(0deg, transparent 70%, #ff5347 100%), 
+        linear-gradient(#db453a 43%, #a83d35 63%);
     padding: 0.3vh 1.5vw;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
 
     transition: padding 0.1s ease-in;
 }
@@ -112,7 +117,8 @@ header h1 {
 .returnButton:hover {
     cursor: pointer;
     padding: 0.3vh 1.7vw;
-    background: linear-gradient(#df2b2e 43%, #8a3132 63%);
+    background:
+        linear-gradient(#ff4538 43%, #b8352c 63%);
 }
 
 .returnButton a {
@@ -124,8 +130,7 @@ header h1 {
 }
 
 .returnButton:active {
-
-    background: linear-gradient(#681f20 43%, #461d1d 63%);
+    background: linear-gradient(#fa2414 43%, #9e140a 63%);
 }
 
 .returnButton a:active {
@@ -133,15 +138,18 @@ header h1 {
 }
 
 .returnButton:has(span:not([value="X"])) {
-    background: linear-gradient(#3a7adb 43%, #426cac 63%);
+    background: 
+        linear-gradient(0deg, #2b528d 0%, transparent 20%),
+        linear-gradient(0deg, transparent 70%, #3b87fa 100%), 
+        linear-gradient(#3a7adb 43%, #426cac 63%);
 }
 
 .returnButton:has(span:not([value="X"])):hover {
-    background: linear-gradient(#2c79ee 43%, #295596 63%);
+    background: linear-gradient(#287af5 43%, #2257a5 63%);
 }
 
 .returnButton:has(span:not([value="X"])):active {
-    background: linear-gradient(#174281 43%, #132644 63%);
+    background: linear-gradient(#1a72f7 43%, #0c408d 63%);
 }
 
 /**/
@@ -223,27 +231,28 @@ footer {
     margin: 0 1vw;
 
     background:
-        linear-gradient(0deg, transparent 25%, #4b9eb37b 50%, transparent 75%),
-        linear-gradient(0deg, #ffffff4d 0%, transparent 20%),
-        linear-gradient(0deg, transparent 80%, #ffffff4d 100%),
-        linear-gradient(#7FCDDF);
+        linear-gradient(0deg, transparent 30%, #348fa3 50%, transparent 90%),
+        linear-gradient(0deg, #e9e9e94d 0%, transparent 20%),
+        linear-gradient(0deg, transparent 80%, #e9e9e94d 100%),
+        linear-gradient(#5ed5f0 43%, #40a8c0 63%);
 
     transition: padding 0.1s ease-in;
 }
-.abasSiteBotao span{
+
+.abasSiteBotao span {
+    font-weight: 300;
     color: #FFF;
 }
-.abasSiteBotao:hover{
+
+.abasSiteBotao:hover {
+    font-size: 1.6rem;
     cursor: pointer;
     padding: 2.8vh 6.2vw;
-    box-shadow: 4px 4px 10px #47474775 inset, -4px -4px 10px #47474775 inset;
 
     background:
-        linear-gradient(0deg, transparent 25%, #4b9eb37b 50%, transparent 75%),
-        linear-gradient(0deg, #ffffff4d 0%, transparent 20%),
-        linear-gradient(0deg, transparent 80%, #ffffff4d 100%),
-        linear-gradient(#73d3eb);
-    
+        linear-gradient(0deg, transparent 30%, #4dacc2 50%, transparent 90%),
+        linear-gradient(0deg, #f3f3f34d 0%, transparent 20%),
+        linear-gradient(0deg, transparent 80%, #f3f3f34d 100%),
+        linear-gradient(#74dbf5 43%, #4bb7cf 63%);
+
 }
-
-
