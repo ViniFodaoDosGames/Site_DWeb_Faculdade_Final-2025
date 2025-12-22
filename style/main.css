@@ -6,7 +6,7 @@
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 1vh;
-    border-radius: 0.25%;
+    border-radius: 0.3vh;
 
     border: solid 1px #939393;
     display: flex;
@@ -76,7 +76,7 @@
         linear-gradient(0deg, transparent 80%, #ffffff4d 100%),
         linear-gradient(#3adb70 43%, #4a9463 63%);
     color: #FFF !important;
-    width: 9vw;
+    width: calc(10%);
     height: 5vh;
     margin: 3vh 0;
     font-size: 1rem;

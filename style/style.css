@@ -8,6 +8,10 @@
     color: #5f5f5f;
 }
 
+.invisible{
+    display: none !important;
+}
+
 body {
     /* 
         vh e vw são bons para definir o tamanho de um componente 
@@ -47,7 +51,7 @@ footer,
 
     position: absolute;
     translate: -50%;
-    top: 5vh;
+    top: 1vh;
     left: 50%;
     /*Pesquisar melhor sobre o linear-gradient() para poder brincar com mais coisas*/
 
