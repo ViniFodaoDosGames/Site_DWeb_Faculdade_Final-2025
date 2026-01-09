@@ -8,7 +8,7 @@
     color: #5f5f5f;
 }
 
-.invisible{
+.invisible {
     display: none !important;
 }
 
@@ -109,7 +109,7 @@ header h1 {
     border: 1px solid #939393;
     background:
         linear-gradient(0deg, #8f261f 0%, transparent 20%),
-        linear-gradient(0deg, transparent 70%, #ff5347 100%), 
+        linear-gradient(0deg, transparent 70%, #ff5347 100%),
         linear-gradient(#db453a 43%, #a83d35 63%);
     padding: 0.3vh 1.5vw;
     text-align: center;
@@ -142,9 +142,9 @@ header h1 {
 }
 
 .returnButton:has(span:not([value="X"])) {
-    background: 
+    background:
         linear-gradient(0deg, #2b528d 0%, transparent 20%),
-        linear-gradient(0deg, transparent 70%, #3b87fa 100%), 
+        linear-gradient(0deg, transparent 70%, #3b87fa 100%),
         linear-gradient(#3a7adb 43%, #426cac 63%);
 }
 
@@ -186,6 +186,7 @@ footer {
     align-items: center;
     border-left: solid 1px #939393;
     border-right: solid 1px #939393;
+    overflow: hidden;
 
 }
 
@@ -194,20 +195,21 @@ footer {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    width: calc(70% - 5vw);
-    height: calc(90%);
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     transition: all 0.1s ease-in;
+    overflow: hidden;
 }
 
 .Icon_page div:hover {
-    width: calc(73% - 5vw);
-    height: calc(95%);
+    height: 90px;
+    width: 90px;
 }
 
 .Icon_page img {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 /**/
@@ -249,7 +251,7 @@ footer {
 }
 
 .abasSiteBotao:hover {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     cursor: pointer;
     padding: 2.8vh 6.2vw;
 
@@ -259,4 +261,41 @@ footer {
         linear-gradient(0deg, transparent 80%, #f3f3f34d 100%),
         linear-gradient(#74dbf5 43%, #4bb7cf 63%);
 
+}
+
+@media screen and (max-width: 768) {
+    h1 {
+        font-size: 1.2rem;
+    }
+    .Icon_page {
+        display: none;
+    }
+    .abasSiteBotao {
+        font-size: 1.3rem;
+        padding: 1.7vh 5.1vw;
+        border-radius: 5px;
+
+        margin: 0 0.75vw;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+
+        font-size: 1rem;
+    }
+
+    .Icon_page {
+        display: none;
+    }
+
+    .abasSiteBotao {
+        font-size: 1.2rem;
+        padding: 1.5vh 4.9vw;
+        border-radius: 5px;
+
+        margin: 0 0.7vw;
+
+    }
 }

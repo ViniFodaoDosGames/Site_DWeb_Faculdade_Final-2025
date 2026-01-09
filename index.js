@@ -6,14 +6,14 @@ let projetos = {
             Nome: "LIST_TAD-2025",
             Imge: "../img/LIST_TAD-2025.png",
             Alte: "Imagem 1",
-            Desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+            Desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
             Data: "09/10/2026"
         },
         {
             id: "456",
             Link: "https://www.youtube.com/",
             Nome: "Projeto_2",
-            Imge: "../img/Template.png",
+            Imge: "../img/Icon_3.png",
             Alte: "Imagem 2",
             Desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
             Data: "09/12/2030"
@@ -22,7 +22,7 @@ let projetos = {
             id: "890",
             Link: "https://www.youtube.com/",
             Nome: "Projeto_2",
-            Imge: "../img/Template.png",
+            Imge: "../img/Icon_3.png",
             Alte: "Imagem 2",
             Desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
             Data: "09/12/2030"

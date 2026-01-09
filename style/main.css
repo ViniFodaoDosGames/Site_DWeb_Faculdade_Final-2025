@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #5f5f5f;
+}
+
 .main {
     flex: 15 1 0;
 
@@ -20,7 +30,7 @@
     font-size: 1.5rem;
 }
 
-.main_input{
+.main_input {
     border: solid 1px #939393;
     border-radius: 0.5vw;
     width: 50vw;
@@ -28,7 +38,8 @@
     font-size: 1.3rem;
     padding: 1vw;
 }
-.main_texarea{
+
+.main_texarea {
     border: solid 1px #939393;
     border-radius: 0.5vw;
     width: 50vw;
@@ -36,7 +47,7 @@
     resize: none;
     font-size: 1.3rem;
     padding: 1vw;
-    margin-bottom: 50px ;
+    margin-bottom: 50px;
 }
 
 .main_header {
@@ -76,9 +87,9 @@
         linear-gradient(0deg, transparent 80%, #ffffff4d 100%),
         linear-gradient(#3adb70 43%, #4a9463 63%);
     color: #FFF !important;
-    width: calc(10%);
+    width: calc(13%);
     height: 5vh;
-    margin: 3vh 0;
+    margin: 2vh 0;
     font-size: 1rem;
     text-align: center;
     font-weight: 400;
@@ -93,3 +104,56 @@
     background: linear-gradient(#2ce068 43%, #4ab16c 63%);
 }
 
+@media screen and (max-width: 1024px) {
+    h3 {
+
+        font-size: 1.9rem;
+    }
+
+    .main_header h2 {
+        font-size: 2.7rem;
+
+    }
+
+    .submit_buttom {
+        width: calc(13%);
+        height: 3vh;
+        margin: 2.3vh 0;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+
+    .main_input {
+        width: 40vw;
+        font-size: 1.1rem;
+        padding: 0.9vw;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h3 {
+
+        font-size: 1.0rem;
+    }
+
+    .main_header h2 {
+        font-size: 1.9rem;
+
+    }
+
+    .submit_buttom {
+        width: calc(13%);
+        height: 3vh;
+        margin: 2vh 0;
+        font-size: 0.6rem;
+        font-weight: 400;
+    }
+
+    .main_input {
+        width: 40vw;
+        font-size: 1.1rem;
+        padding: 0.6vw;
+
+    }
+}

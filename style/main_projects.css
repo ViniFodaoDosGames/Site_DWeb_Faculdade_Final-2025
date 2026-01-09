@@ -10,6 +10,7 @@
     position: sticky;
     z-index: 1;
     background-color: #fff;
+    padding: 20px;
 }
 
 .card{
@@ -40,14 +41,12 @@
     width: auto;
     display: flex;
 }
-.imageSection img{
-    scale: calc(100%);
-}
 
 .textSection{
     flex: 4 1 0;
     text-align: justify;
     padding: 10px;
+    scale: calc(100%);
 }
 .card h3{
     font-size: 2.5rem;
@@ -66,3 +65,36 @@
         linear-gradient(#ffffff 43%, #e6e6e6 63%);
 
 }
+
+
+    @media screen and (max-width: 768px){
+        h3{
+            
+        font-size: 1rem;
+        }
+        .main_header h2{
+        font-size: 1.8rem;
+
+        }
+
+        .imageSection{
+            flex: 1 1 0;
+        }
+        .imageSection img{
+            height: 100px;
+            width: 100%;
+        }
+
+        .card{
+            flex-direction: column;
+            font-size: 1.2rem;
+
+        }
+        .card h3{
+            font-size: 1.7rem;
+        }
+        .textSection{
+            padding: 8px;
+            overflow: scroll;
+        }
+    }
